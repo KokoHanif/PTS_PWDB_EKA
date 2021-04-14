@@ -1,0 +1,199 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	scrollbar-width : none;
+}
+body{
+	background-color: rgb(240,240,240);
+}
+main{
+	width: 100%;
+}
+nav{
+	margin-left: 20px;
+	margin-top: 15px;
+	border-radius: 15px;
+	float: left;
+	position: fixed;
+	width: 20%;
+	background-color: white;
+	height: 95%;
+	overflow: auto;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+ul,footer{
+	text-align: center;
+	margin: 0 auto;
+	list-style-type: none;
+}
+ul li,footer{
+	background-color:  #2aa7e2;;
+	padding: 20px;
+}
+footer{
+	margin-top: 35.8em;
+	background-color: #F92B43;
+}
+ul a,a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+.badan{
+	width: 80%;
+	float: right;
+}
+.bungkus{
+	background-color: white;
+	padding: 5px;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+	width: 90%;
+	margin: auto;
+	max-height: 25em;
+	min-height: 25em;
+	overflow: scroll;
+	border-radius: 10px;
+	scrollbar-width : none;
+	padding-top: 0;
+
+}
+img{
+	margin-top: 30px;
+	width: 300px;
+}
+.atas{
+	width: 90%;
+	margin: auto;
+	margin-top: 15px;
+}
+.orang{
+	overflow: auto;
+	text-align: center;
+	width: 30%;
+	float: left;
+	max-height: 20em;
+	min-height: 20em;
+	background-color: white;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+	border-radius: 10px;
+}
+form{
+	float: right;
+	background-color: white;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+	width: 68%;
+	margin: auto;
+	max-height: 20em;
+	min-height: 20em;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	
+}
+input[type=submit]{
+	background: #2aa7e2;
+	font-weight: bold;
+	color: white;
+	font-size: 12pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.tab1{
+	max-width: 95%;
+	margin: auto;
+	padding: 10px;
+	overflow: all;
+	padding: 10px;
+}
+.tambah{
+	width: 85%;
+	margin: auto;
+	overflow: auto;
+}
+table{
+	width: 100%;
+}
+th{
+	position: sticky;
+	top: 0;
+	background-color: white;
+	height: 30px;
+	border: 2px solid black;
+
+}
+td,th{
+	padding         : 5px 20px;
+	border-radius   : 3px;
+	font-weight     : bold;
+}
+input,textarea{
+	max-width: 80%;
+	min-width: 80%;
+	height: 40px;
+	font-size: 15px;
+}
+textarea{
+	height: 100px;
+}
+td a{
+	font-size: 15px;
+}
+.container{
+	margin-top: 15px;
+	background-color: white;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+	position: fixed;
+	margin-left: 50px;
+	width: 75%;
+	height: 95%;
+	overflow: scroll;
+	scrollbar-width : none;
+	border-radius: 10px;
+}
+.container table{
+	width: 100%;
+}
+.selesai{
+	margin-top: 100px;
+	height: 30em;
+	overflow: auto;
+	width: 75%;
+	height: 100%;
+	float: right;
+	margin: auto;
+	background-color: white;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3)
+}
+@media screen and (max-width: 1000px){
+	.atas, .orang, form, .bungkus, nav, .badan {
+		width: 100%;
+		float: none;
+
+	}
+	nav{
+		margin: auto;
+		height: 30%;
+		position: sticky;
+		top: 0;
+	}
+	footer{
+		margin-top: 0;
+	}
+	.orang{
+		margin-top: 100px;
+		margin-bottom: 15px;
+	}
+	.bungkus{
+	scrollbar-width : 1px;
+
+	}
+	
+	table{
+		font-size: 30px;
+	}	
+}

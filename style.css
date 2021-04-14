@@ -1,0 +1,38 @@
+body{
+	font-family: sans-serif;
+}
+
+.kotak{
+	width: 300px;
+	background: white;
+	margin: 80px auto;
+	padding: 30px 20px;
+	border-radius: 10px;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+
+label{
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+input[type=text],input[type=password]{
+	box-sizing : border-box;
+	border: none;
+	border-bottom: 1px solid black;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+
+input[type=submit]{
+	background: #E22238;
+	color: white;
+	font-size: 12pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
